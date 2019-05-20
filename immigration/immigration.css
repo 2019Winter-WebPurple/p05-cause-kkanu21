@@ -1,0 +1,71 @@
+/*
+* Krissy Kanu
+* 5/19/19
+* Your Cause Project */
+
+/* The universal selector */
+
+* {margin: 0;
+   padding: 0;}
+
+/* Body properties here */
+
+body {font-family: Arial, Helvetica, sans-serif; 
+      width: 90%;
+      margin: auto;
+      font-size: 20px;
+      background-color: #ECECEC;}
+
+main {border-top: 10px solid black;
+      border-bottom: 10px solid black;} /* properties for the main section */
+
+/* properties for the headings */
+h1 {font-size: 250%;
+    text-align: center;
+    padding: 20px;
+    color: #F78888;}
+
+h2 {padding-top: 40px;
+    padding-bottom: 5px;
+    color: #F3D250;}
+
+/* properties for the texts */
+p {padding: 10px;
+   color: #32292F}
+
+ol, li {padding: 5px;
+        margin-bottom: 5px;
+        list-style-position: inside;}
+
+#paragraph {text-align: right;
+            padding: 20px;}
+
+/* properties for the figures */
+figure {clear: both;
+        padding: 10px;
+        text-align: center;}
+
+#refugeeone {float: left;
+             margin: 20px;
+             border: 5px dashed #90CCF4;}
+
+#five, #six {height: 180px;}
+
+#seven {height: 250px;
+        width: 320px;
+        float: right;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+        border: 5px solid #90CCF4;}
+
+/* properties for the links */
+a:visited {color: #F78888;
+           text-decoration: none;}
+
+
+a:link {color: #5DA2D5;
+        text-decoration: none;}
+
+a:hover, a:focus {color: navy;
+                  font-size: 200%;}
